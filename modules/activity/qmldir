@@ -1,0 +1,2 @@
+singleton ActivityState 1.0 ActivityState.qml
+ActivityMonitor 1.0 ActivityMonitor.qml

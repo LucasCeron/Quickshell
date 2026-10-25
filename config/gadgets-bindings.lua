@@ -1,0 +1,10 @@
+-- Quickshell config: direct access to each view; wallpapers have their own bottom drawer.
+hl.bind("SUPER + N", hl.dsp.exec_cmd("qs -c config ipc call gadgets notifications"))
+hl.bind("SUPER + SHIFT + N", hl.dsp.exec_cmd("qs -c config ipc call notifications quiet"))
+hl.bind("SUPER + G", hl.dsp.exec_cmd("qs -c config ipc call gadgets music"))
+hl.bind("SUPER + SHIFT + T", hl.dsp.exec_cmd("qs -c config ipc call gadgets themes"))
+hl.bind("SUPER + SHIFT + B", hl.dsp.exec_cmd("qs -c config ipc call gadgets tools"))
+hl.bind("SUPER + I", hl.dsp.exec_cmd("qs -c config ipc call gadgets system"))
+hl.bind("ALT + F3", hl.dsp.exec_cmd("qs -c config ipc call appmenu open"))
+hl.bind("SUPER + W", hl.dsp.exec_cmd("qs -c config ipc call wallpapers toggle"))
+hl.bind("SUPER + L", hl.dsp.exec_cmd('bash "${XDG_CONFIG_HOME:-$HOME/.config}/quickshell/config/scripts/lock.sh"'))

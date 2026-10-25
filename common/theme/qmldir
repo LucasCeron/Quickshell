@@ -1,0 +1,5 @@
+singleton Theme 1.0 Theme.qml
+singleton Colors 1.0 Colors.qml
+singleton Presets 1.0 Presets.qml
+singleton Typography 1.0 Typography.qml
+singleton Motion 1.0 Motion.qml

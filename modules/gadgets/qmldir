@@ -1,0 +1,7 @@
+singleton GadgetsState 1.0 GadgetsState.qml
+Gadgets 1.0 Gadgets.qml
+MediaTab 1.0 MediaTab.qml
+ToolsTab 1.0 ToolsTab.qml
+NotificationsTab 1.0 NotificationsTab.qml
+SystemTab 1.0 SystemTab.qml
+Scrim 1.0 Scrim.qml

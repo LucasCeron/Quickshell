@@ -1,0 +1,10 @@
+singleton Audio 1.0 Audio.qml
+singleton Network 1.0 Network.qml
+singleton Compositor 1.0 Compositor.qml
+singleton Media 1.0 Media.qml
+singleton Wallpapers 1.0 Wallpapers.qml
+singleton Notices 1.0 Notices.qml
+singleton Toaster 1.0 Toaster.qml
+singleton Idle 1.0 Idle.qml
+singleton Resources 1.0 Resources.qml
+NoticeData 1.0 NoticeData.qml
